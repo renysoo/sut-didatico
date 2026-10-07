@@ -37,6 +37,6 @@ jobs:
           NODE_OPTIONS: >-
             --test-reporter=spec --test-reporter-destination=stdout
             --test-reporter=junit --test-reporter-destination=relatorios/unidade.xml
-          run: |
-            mkdir -p relatorios
-            npm run test:unidade
+        run: |
+          mkdir -p relatorios
+          npm run test:unidade
