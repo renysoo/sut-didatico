@@ -1,0 +1,12 @@
+name: testes
+on:
+  workflow_dispatch:
+
+jobs:
+  teste_esteira:
+    name: 'testando'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: alo
+        run: echo "a esteira executou"
